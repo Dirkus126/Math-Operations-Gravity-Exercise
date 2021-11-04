@@ -1,0 +1,9 @@
+gravity = input(" what is the gravity in pixels per second squared ")
+gravity = int(gravity)
+framesasec = input("What is the fps ")
+framesasec = int(framesasec)
+frames = input("How many frames ")
+frames = int(frames) 
+time = frames / framesasec
+distance = 1/2 * gravity * time ** 2
+print("It will drop ", distance ,"pixels in ", time , "seconds")
